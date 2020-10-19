@@ -10,15 +10,15 @@ const caesarCipher = (str) => {
     v: 'w', w: 'x', x: 'y',
     y: 'z', z: 'a'
   }
-  let ciphered = ''
+  let ciphered = '';
 
-  str = str.toLowerCase()
+  str = str.toLowerCase();
 
   for(let i = 0; i < str.length; i++){
     ciphered += reference[str[i]]
   }
 
-  return ciphered
-}
+  return ciphered;
+};
 
 export default caesarCipher;
