@@ -2,7 +2,7 @@
 
 # Testing-practice
 
-In this project, we are testing a few functions writen in javascript with the use of Jest in ES6.
+In this project, we are testing a few functions written  in javascript with the use of Jest in ES6.
 
 ### Built With
 This project was built using these technologies.
