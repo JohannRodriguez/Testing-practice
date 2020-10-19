@@ -1,63 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Testing-practice
 
-> One paragraph statement about the project.
+In this project, we are testing a few functions writen in javascript with the use of Jest in ES6.
 
-![screenshot](./app_screenshot.png)
+### Built With
+This project was built using these technologies.
 
-Additional description about the project and its features.
+* Javascript
+* Jest
+* VSCode
+* ESLint
 
-## Built With
+### Running Locally
 
-- Major languages
-- Frameworks
-- Technologies used
+Clone the repo:
+```
+git clone https://github.com/JohannRodriguez/Testing-practice.git
+```
+Inside the root folder of the project, install the node packages:
+```
+npm install
+```
+Go to the root folder and run the npm build script:
+```
+npm run build
+```
+## Author
 
-## Live Demo
+👤 Ricardo
 
-[Live Demo Link](https://livedemo.com)
+- Github: [@ricardo123321](https://github.com/ricardo123321)
 
+👤 **Johann Rodriguez**
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@JohannRodriguez](https://github.com/JohannRodriguez)
+- Twitter: [@BSapce](https://https://twitter.com/BSapce)
+- Linkedin: [Johann Rodríguez](https://www.linkedin.com/in/johann-alonso-rodr%C3%ADguez-v%C3%A1zquez-25b07719a/)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
@@ -67,9 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Microverse and the wonderful reviewers who have guided us to the completion of this project
+
 
 ## 📝 License
 
