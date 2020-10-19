@@ -31,7 +31,7 @@ const caesarCipher = (str) => {
 
   str = str.toLowerCase();
 
-  for (let i = 0; i < str.length; i++) {
+  for (let i = 0; i < str.length; i + 1) {
     ciphered += reference[str[i]];
   }
 
