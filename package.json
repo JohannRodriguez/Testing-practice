@@ -17,7 +17,9 @@
   },
   "scripts": {
     "test": "jest",
-    "watch": "jest watch *.js"
+    "watch": "jest watch *.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
