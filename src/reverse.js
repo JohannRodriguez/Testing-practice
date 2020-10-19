@@ -1,5 +1,3 @@
-const reverse = (string) => {
-  return string.split('').reverse().join('');
-};
+const reverse = (string) => string.split('').reverse().join('');
 
 export default reverse;
