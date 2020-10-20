@@ -4,7 +4,7 @@ import reverse from '../src/reverse';
 
 import calculator from '../src/calculator';
 
-import caesarCipher from '../src/caesarCipher';
+import rot13 from '../src/caesarCipher';
 
 import arrayAnalysis from '../src/arrayAnalysis';
 
@@ -41,11 +41,15 @@ it('make a multiplication', () => {
 });
 
 it('returns a string ciphered', () => {
-  expect(caesarCipher('abc')).toBe('bcd');
+  expect(rot13('abc')).toBe('bcd');
 });
 
 it('returns uppercased words', () => {
-  expect(caesarCipher('Adf')).toBe('beg');
+  expect(rot13('Adf')).toBe('beg');
+});
+
+it('returns uppercased words', () => {
+  expect(rot13('Azf')).toBe('bag');
 });
 
 it('returns and object with data of a sorted array', () => {

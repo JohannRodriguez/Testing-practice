@@ -1,41 +1,33 @@
-const caesarCipher = (str) => {
-  const reference = {
-    a: 'b',
-    b: 'c',
-    c: 'd',
-    d: 'e',
-    e: 'f',
-    f: 'g',
-    g: 'h',
-    h: 'i',
-    i: 'j',
-    j: 'k',
-    k: 'l',
-    l: 'm',
-    m: 'n',
-    n: 'o',
-    o: 'p',
-    p: 'q',
-    q: 'r',
-    r: 's',
-    s: 't',
-    t: 'u',
-    u: 'v',
-    v: 'w',
-    w: 'x',
-    x: 'y',
-    y: 'z',
-    z: 'a',
-  };
-  let ciphered = '';
+function rot13(str) {
+  const lowered = str.toLowerCase();
+  const arr = lowered.split('');
 
-  str = str.toLowerCase();
+  const arr1 = [];
+  const arr2 = [];
 
-  for (let i = 0; i < str.length; i + 1) {
-    ciphered += reference[str[i]];
+  for (let i = 0; i < arr.length; i++) {
+    const item = arr[i];
+    let ascii = item.charCodeAt();
+
+    if (item.match(/[a-z]/)) {
+      if (ascii >= 97 && ascii <= 121) {
+        ascii += 1;
+      } else {
+        ascii = 97;
+      }
+      arr1.push(ascii);
+    } else {
+      arr1.push(item.charCodeAt());
+    }
   }
 
-  return ciphered;
-};
+  for (let j = 0; j < arr1.length; j++) {
+    const item2 = arr1[j];
+    arr2.push(String.fromCharCode(item2));
+  }
 
-export default caesarCipher;
+  const test = arr2.join('');
+
+  return test;
+}
+export default rot13;
