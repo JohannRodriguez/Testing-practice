@@ -5,7 +5,7 @@ function rot13(str) {
   const arr1 = [];
   const arr2 = [];
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i += 1) {
     const item = arr[i];
     let ascii = item.charCodeAt();
 
@@ -21,7 +21,7 @@ function rot13(str) {
     }
   }
 
-  for (let j = 0; j < arr1.length; j++) {
+  for (let j = 0; j < arr1.length; j += 1) {
     const item2 = arr1[j];
     arr2.push(String.fromCharCode(item2));
   }
